@@ -1,0 +1,39 @@
+{
+  "name": "geos-geocoder",
+  "description": "Vocus geos geocoder module.",
+  "version": "0.1.0",
+  "homepage": "",
+  "author": {
+    "name": "Guillaume de Boyer",
+    "email": "guillaume.deboyer@vocus.com.au"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.vocus.local:guillaume.deboyer/geos-geocoder.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "main": "lib/geocoder",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt nodeunit"
+  },
+  "dependencies": {
+    "progress": "1.x",
+    "async": "0.x",
+    "underscore": "~1.6.0",
+    "geocoder": "~0.2.0"
+  },
+  "devDependencies": {
+    "grunt": "latest",
+    "grunt-contrib-jshint": "~0.6.x",
+    "grunt-contrib-watch": "~0.5.x",
+    "grunt-contrib-uglify": "~0.4.x",
+    "chai": "~1.9.1",
+    "grunt-mocha-test": "~0.10.0"
+  },
+  "keywords": []
+}
